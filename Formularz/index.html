@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.css">
+    <title>Employment Form</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <h2>Employment Form</h2>
+        </div>
+        <form action="#" method="post">
+            <section class="frow">
+                <div class="form-group">
+                    <label for="first-name">First name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+
+            </section>
+<section class="secrow">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+        </section>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>What are you looking for?</label>
+                <div class="checkbox-group">
+                    <section class="checkboxel">
+                        <label for="SE">Software Engineer</label>
+                        <input type="radio" id="SE" name="test">
+                    </section>
+                    
+                    <section class="checkboxel">
+                        <label for="UX">UX Designer</label>
+                        <input type="radio" id="UX" name="test">
+                        
+
+                    </section>
+                    
+                    <section class="checkboxel">
+                        <label for="AS">Analytics Specialist</label>
+                        <input type="radio" id="AS" name="test">
+                        
+                    </section>
+                    
+                    <section class="checkboxel">
+                        <label for="PR">Project Manager</label>
+                        <input type="radio" id="PR" name="test">
+                    </section>
+                    
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Which programming languages do you know?</label>
+                <div class="checkbox-group">
+                    <section class="checkboxel2">
+                        <input type="checkbox" id="java" name="java">
+                        <label for="java">Java</label>
+                    </section>
+                    <section class="checkboxel2">
+                        <input type="checkbox" id="python" name="python">
+                        <label for="python">Python</label>
+
+                    </section>
+                    
+                    <section class="checkboxel2">
+                        <input type="checkbox" id="javascript" name="javascript">
+                        <label for="javascript">JavaScript</label>
+
+                    </section>
+                   
+                    <section class="checkboxel2">
+                        <input type="checkbox" id="csharp" name="csharp">
+                        <label for="csharp">C#</label>
+                        
+                    </section>
+                    
+                    <section class="checkboxel2">
+                        <input type="checkbox" id="kotlin" name="kotlin">
+                        <label for="kotlin">Kotlin</label>
+
+                    </section>
+                    
+                    <section class="checkboxel2">
+                        <input type="checkbox" id="Scala" name="Scala">
+                         <label for="Scala">Scala</label>
+                    </section>
+                    
+                   
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="buttons-group">
+                <button type="reset" class="form-button">Reset</button>
+                <button type="submit" class="form-button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

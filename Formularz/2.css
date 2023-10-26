@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form{
+    display: grid;
+}
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+}
+.frow, .secrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.frow .form-group{
+    width: 45%;
+    flex-wrap: wrap;
+    
+}
+.secrow .form-group{
+    width: 30%;
+    flex-wrap: wrap;
+    
+}
+
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 100%;
+    }
+    .frow .form-group{
+        width: 100%;
+    }
+    .secrow .form-group{
+        width: 100%;
+    }
+    
+}
+
+.form-header {
+    text-align: center;
+    color: #FFA500;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #FFA500;
+    margin-bottom: 5px;
+}
+
+.form-group .checkbox-group label{
+    color: black;
+
+}
+
+
+
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.checkboxel{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.checkboxel2{
+    margin-right: 10px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.checkboxel2 label{
+    margin-top: 8px;
+}
+.checkboxel label{
+    margin-top: 8px;
+}
+
+.form-group .checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+
+}
+
+.form-group .radio-group input[type="radio"] {
+    margin-right: 10px;
+    
+}
+
+.form-button {
+    width: 30%;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.form-group .form-button.submit-button {
+    width: 60%;
+}
+.buttons-group{
+   display: flex;
+   
+   width: 100%;
+}
+button[type="submit"]{
+
+    width: 100%;
+  
+}
+button{
+    margin-right: 10px;
+}
